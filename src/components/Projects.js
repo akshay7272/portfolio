@@ -16,7 +16,7 @@ function Projects() {
               <div className="mx-auto max-w-sm bg-neutral-100 border border-gray-200 rounded-lg shadow ">
                 <img className="rounded-t-lg" src={lambandbeef} alt="" />
                 <div className="p-5">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Lamb and Beef
                   </h5>
 
@@ -58,7 +58,7 @@ function Projects() {
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
                 <img className="rounded-t-lg" src={gratis} alt="" />
                 <div className="p-5">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Gratis Books
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -100,7 +100,7 @@ function Projects() {
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
                 <img className="rounded-t-lg" src={cellwork} alt="" />
                 <div className="p-5">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Cellworks
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -141,7 +141,7 @@ function Projects() {
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
                 <img className="rounded-t-lg" src={scifi} alt="" />
                 <div className="p-5">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Sci-Fi
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -153,7 +153,7 @@ function Projects() {
                     <b>My Contribution</b>
                   </p>
                   <p className="pt-2">
-                    <b>Front end:</b> Html, CSS, SCSS, JavaScript & JQuery.
+                    <b>Front end:</b> Html, CSS, SCSS, & JavaScript.
                   </p>
 
                   <a
@@ -186,7 +186,7 @@ function Projects() {
                   alt="accountability"
                 />
                 <div className="p-5">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Accountability Initiative
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -228,14 +228,12 @@ function Projects() {
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
                 <img className="rounded-t-lg" src={urbz} alt="" />
                 <div className="p-5">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Urbz
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                     urbz is an experimental action and research collective
-                    specialized in participatory planning and design. We work
-                    with citizens, associations, local governments and private
-                    clients.
+                    specialized in participatory planning and design.
                   </p>
                   <p className="pt-2">
                     <b>My Contribution</b>
