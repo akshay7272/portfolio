@@ -23,7 +23,7 @@ function Projects() {
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                     This is a Laravel multi-lingual project based on English and
                     Arabic. This Project based on lamb, beef and goat recipes
-                    where you can easily find different recipes.{" "}
+                    where you can easily find different recipes.
                   </p>
                   <p className="pt-2">
                     <b>My Contribution</b>
@@ -239,14 +239,14 @@ function Projects() {
                     <b>My Contribution</b>
                   </p>
                   <p className="pt-2">
-                    <b>Front end:</b> Html, CSS, SCSS, JavaScript & JQuery.
+                    <b>Front end:</b> Html, CSS, SCSS, and JavaScript.
                   </p>
 
                   <a
                     href="https://urbz.net/"
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-2 text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-7 text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     Visit Website
                     <svg
