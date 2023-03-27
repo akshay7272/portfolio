@@ -67,7 +67,7 @@ body {
   scrollbar-width: none;  /* Firefox */
 }
 
-.css-typing h2 {
+/* .css-typing h2 {
   border-right: .15em solid orange;
   font-family: "Courier";
   white-space: nowrap;
@@ -126,7 +126,7 @@ body {
   50% {
     border-color: transparent;
   }
-}
+} */
 
 /* hamburger menu */
 

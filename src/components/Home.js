@@ -11,7 +11,7 @@ function Home() {
               Hello<span className="hi">👋</span>
             </h2>
             <h2 className="pb-3">I'm Akshay Kumar</h2>
-            <div className="css-typing">
+            <div>
               <h2>Front End Developer</h2>
             </div>
             {/* GitHub account */}
