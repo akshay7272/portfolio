@@ -35,7 +35,7 @@ function About_us() {
               </h1>
               <div className="flex gap-6 flex-wrap lg:gap-20">
                 <li className="list-none pt-6">
-                  <img src={html} height="50px" width="50px" alt="" />
+                  <img src={html} height="55px" width="55px" alt="" />
                 </li>
                 <li className="list-none pt-6 pl-1">
                   <img src={css} height="40px" width="40px" alt="" />
