@@ -333,7 +333,7 @@ function Projects() {
                     created using react js and react-bootstrap.
                   </p>
                   <p className="pt-2">
-                    <b>Front end:</b> React js, JSX & AntDesign.
+                    <b>Front end:</b> React js, JSX & React-Bootstrap.
                   </p>
 
                   <a
