@@ -286,12 +286,8 @@ function Projects() {
                     Gratis Books
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    This is a ReactJS PWA Project. Which provides you to simply
-                    donate book to another user without charge or recompense.
-                  </p>
-                  <p className="pt-2">
-                    <b>My Contribution</b>
-                    <span className="p-1">(Built whole project)</span>
+                    Gratisbooks provides you to simply donate book to another
+                    user without charge or recompense.
                   </p>
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, React, MUI. <b>Back end:</b>
