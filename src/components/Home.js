@@ -4,7 +4,7 @@ import "../App.css";
 function Home() {
   return (
     <>
-      <section className="flex justify-evenly items-center flex-wrap mt-10 m-auto md:mt-16">
+      <section className="flex justify-around items-center flex-wrap mt-10 m-auto md:mt-16">
         <div className="text-2xl md:text-4xl md:w-96">
           <div className="m-auto md:pt-6 md:pl-2">
             <h2 className="pb-3 animate-bounce">
