@@ -55,9 +55,8 @@ function About_us() {
                 <li className="list-none pt-6">
                   <img src={github} height="50px" width="50px" alt="" />
                 </li>
-
-                <li className="list-none pt-7 lg:pt-4">
-                  <img src={bootstrap} height="40px" width="61px" alt="" />
+                <li className="list-none pt-6 lg:pt-2">
+                  <img src={sass} height="50px" width="50px" alt="" />
                 </li>
                 <li className="list-none pt-10 lg:pt-6">
                   <img src={tailwind} height="50px" width="50px" alt="" />
@@ -65,8 +64,8 @@ function About_us() {
                 <li className="list-none pt-10 lg:pt-6">
                   <img src={git} height="50px" width="50px" alt="" />
                 </li>
-                <li className="list-none pt-6 lg:pt-2">
-                  <img src={sass} height="50px" width="50px" alt="" />
+                <li className="list-none pt-7 lg:pt-4">
+                  <img src={bootstrap} height="40px" width="61px" alt="" />
                 </li>
               </div>
             </div>
