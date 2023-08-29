@@ -13,7 +13,7 @@ function Home() {
             <h2 className="pb-3">I'm Akshay Kumar</h2>
             <div>
               {/* <h2>Front End Developer</h2> */}
-              <h2 class="animate-typing overflow-hidden whitespace-nowrap border-r-1 pr-5">
+              <h2 class="animate-typing overflow-hidden whitespace-nowrap border-r-1 pr-5 text-white">
                 Front End Developer
               </h2>
             </div>
