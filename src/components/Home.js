@@ -13,8 +13,10 @@ function Home() {
             <h2 className="pb-3">I'm Akshay Kumar</h2>
             <div>
               {/* <h2>Front End Developer</h2> */}
-              <h2 class="animate-typing overflow-hidden whitespace-nowrap border-r-1 pr-5 text-white">
-                Front End Developer
+              <h2 class="animate-typing overflow-hidden whitespace-nowrap border-r-1 pr-5">
+                <span class="kesriya">Front</span>{" "}
+                <span class="text-white">End</span>{" "}
+                <span class="hara">Developer</span>
               </h2>
             </div>
             {/* GitHub account */}
