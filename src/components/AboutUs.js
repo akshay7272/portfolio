@@ -10,6 +10,8 @@ import jquery from "../images/jquery.webp";
 import react from "../images/react.svg.png";
 import github from "../images/github.svg";
 import git from "../images/git.png";
+import wordpress from "../images/wordpress.png";
+import drupal from "../images/drupal.png";
 import material from "../images/material.svg";
 function About_us() {
   return (
@@ -42,6 +44,12 @@ function About_us() {
                 </li>
                 <li className="list-none pt-6">
                   <img src={js} height="50px" width="50px" alt="" />
+                </li>
+                <li className="list-none pt-6">
+                  <img src={wordpress} height="50px" width="50px" alt="" />
+                </li>
+                <li className="list-none pt-6">
+                  <img src={drupal} height="50px" width="50px" alt="" />
                 </li>
                 <li className="list-none pt-7">
                   <img src={react} height="50px" width="50px" alt="" />
