@@ -9,7 +9,7 @@ const navigation = [
   { name: "Contact", href: "/contact", current: false },
   {
     name: "Resume",
-    href: "https://drive.google.com/file/d/1ObAL8EhkLY7FwOHMk0jKZ2m5kwD5bbqz/view?usp=share_link",
+    href: "https://drive.google.com/file/d/1tqZxCw0mip3DVxteQbRFE953oyJrUd8G/view?usp=sharing",
     current: false,
   },
 ];
