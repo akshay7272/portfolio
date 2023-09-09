@@ -28,7 +28,12 @@ function Contact() {
             </a>
           </div>
           <div>
-            <img src={logo} className="App-logo m-auto" alt="logo" />
+            <img
+              src={logo}
+              className="App-logo m-auto"
+              alt="logo"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>

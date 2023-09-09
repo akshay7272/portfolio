@@ -21,7 +21,12 @@ function Projects() {
             </h1>
             <div className="mx-auto mt-1 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 pt-10 lg:mt-10 md:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 md:grid-cols-2">
               <div className="mx-auto max-w-sm bg-neutral-100 border border-gray-200 rounded-lg shadow ">
-                <img className="rounded-t-lg" src={lambandbeef} alt="" />
+                <img
+                  className="rounded-t-lg"
+                  src={lambandbeef}
+                  alt=""
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Lamb and Beef
@@ -52,6 +57,7 @@ function Projects() {
                       fill="currentColor"
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
+                      loading="lazy"
                     >
                       <path
                         fillRule="evenodd"
@@ -64,7 +70,12 @@ function Projects() {
               </div>
 
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
-                <img className="rounded-t-lg" src={cellwork} alt="" />
+                <img
+                  className="rounded-t-lg"
+                  src={cellwork}
+                  alt=""
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Cellworks
@@ -94,6 +105,7 @@ function Projects() {
                       fill="currentColor"
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
+                      loading="lazy"
                     >
                       <path
                         fillRule="evenodd"
@@ -105,7 +117,12 @@ function Projects() {
                 </div>
               </div>
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
-                <img className="rounded-t-lg" src={scifi} alt="" />
+                <img
+                  className="rounded-t-lg"
+                  src={scifi}
+                  alt=""
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Sci-Fi
@@ -150,6 +167,7 @@ function Projects() {
                   className="rounded-t-lg"
                   src={account}
                   alt="accountability"
+                  loading="lazy"
                 />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
@@ -191,7 +209,12 @@ function Projects() {
                 </div>
               </div>
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
-                <img className="rounded-t-lg" src={urbz} alt="" />
+                <img
+                  className="rounded-t-lg"
+                  src={urbz}
+                  alt=""
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Urbz
@@ -242,6 +265,7 @@ function Projects() {
                   className="rounded-t-lg"
                   src={portfolio}
                   alt="accountability"
+                  loading="lazy"
                 />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
@@ -280,7 +304,12 @@ function Projects() {
                 </div>
               </div>
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
-                <img className="rounded-t-lg" src={gratis} alt="" />
+                <img
+                  className="rounded-t-lg"
+                  src={gratis}
+                  alt=""
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Gratis Books
@@ -318,7 +347,12 @@ function Projects() {
                 </div>
               </div>
               <div className="mx-auto max-w-sm bg-neutral-100 border border-gray-200 rounded-lg shadow ">
-                <img className="rounded-t-lg" src={netflix} alt="" />
+                <img
+                  className="rounded-t-lg"
+                  src={netflix}
+                  alt=""
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Netflix Clone
@@ -357,7 +391,12 @@ function Projects() {
                 </div>
               </div>
               <div className="mx-auto max-w-sm bg-neutral-100 border border-gray-200 rounded-lg shadow ">
-                <img className="rounded-t-lg" src={todo} alt="" />
+                <img
+                  className="rounded-t-lg"
+                  src={todo}
+                  alt=""
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Todo Application
@@ -396,7 +435,12 @@ function Projects() {
                 </div>
               </div>
               <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
-                <img className="rounded-t-lg" src={weather} alt="" />
+                <img
+                  className="rounded-t-lg"
+                  src={weather}
+                  alt=""
+                  loading="lazy"
+                />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     Weather Application
@@ -424,6 +468,7 @@ function Projects() {
                       fill="currentColor"
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
+                      loading="lazy"
                     >
                       <path
                         fillRule="evenodd"
