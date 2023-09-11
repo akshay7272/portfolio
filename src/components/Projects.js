@@ -281,7 +281,7 @@ function Projects() {
                   </p>
 
                   <a
-                    href="https://ak-port-folio.netlify.app/"
+                    href="https://akshay-port-folio.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-2 text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -324,7 +324,7 @@ function Projects() {
                   </p>
 
                   <a
-                    href="https://gratisbooks.netlify.app/"
+                    href="https://gratisbooks.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -361,14 +361,15 @@ function Projects() {
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                     This is a React js Netflix clone with react-bootstrap.
                     Simply designed a front-end using tmdb api. Project is
-                    created using react js and react-bootstrap.
+                    created using react js and react-bootstrap. Fetched data
+                    from TMDB.
                   </p>
                   <p className="pt-2">
                     <b>Front end:</b> React js, JSX & React-Bootstrap.
                   </p>
 
                   <a
-                    href="https://akshay-netflix-react-bootstrap.netlify.app/"
+                    href="https://react-netflix-clone-bootstrap.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -412,7 +413,7 @@ function Projects() {
                   </p>
 
                   <a
-                    href="https://ak-react-toto.netlify.app/"
+                    href="https://ant-design-react-todo-app.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
