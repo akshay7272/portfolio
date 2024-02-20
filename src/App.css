@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
 @keyframes blink {
   0%,
   100% {
@@ -22,6 +25,7 @@
   border-right: 1px solid var(--caret);
   animation: blink 0.5s linear infinite;
 }
+
 
 @media (prefers-reduced-motion) {
   .typewriter::after {

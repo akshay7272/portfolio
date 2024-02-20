@@ -29,7 +29,7 @@ function Navbar() {
               <li className="hover:text-black cursor-pointer">Contact</li>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1e8-qekQ-XwkQ4KJpbFMxBpZlK6KwRnba/view"
+              href="https://drive.google.com/file/d/1ssTz2l3T0tiTolS3x0qg8FXtBhulgnPR/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
