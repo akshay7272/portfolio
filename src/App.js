@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
@@ -19,6 +20,7 @@ export default function App() {
           <Route element={<Contact />} path="contact"></Route>
         </Routes>
       </Router>
+      <Analytics />
     </>
   );
 }
