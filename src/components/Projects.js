@@ -7,9 +7,10 @@ import urbz from "../images/urbz.jpg";
 import lambandbeef from "../images/lambandbeef.jpg";
 import account from "../images/account.jpg";
 import todo from "../images/todo.jpg";
-import weather from "../images/weather.jpg";
 import portfolio from "../images/portfolio.jpg";
 import netflix from "../images/netflix.jpg";
+import numgen from "../images/numgen.png"
+import bodythredz from "../images/bodythredz.png"
 function Projects() {
   return (
     <>
@@ -37,9 +38,7 @@ function Projects() {
                     Arabic. This Project based on lamb, beef and goat recipes
                     where you can easily find different recipes.
                   </p>
-                  <p className="pt-2">
-                    <b>My Contribution</b>
-                  </p>
+                 
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, SCSS, JavaScript.
                   </p>
@@ -85,9 +84,7 @@ function Projects() {
                     therapies, & provides personalized cancer therapy
                     recommendations.
                   </p>
-                  <p className="pt-2">
-                    <b>My Contribution</b>
-                  </p>
+               
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, SCSS, JavaScript & JQuery.
                   </p>
@@ -132,9 +129,7 @@ function Projects() {
                     understand ‘the governance scale’ in Indian cities in tandem
                     with ‘sector-specific socio-economic scales.
                   </p>
-                  <p className="pt-2">
-                    <b>My Contribution</b>
-                  </p>
+                 
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, SCSS, & JavaScript.
                   </p>
@@ -221,9 +216,7 @@ function Projects() {
                     strengthening transparency and accountability in governance.
                     This research also works with CPR india.
                   </p>
-                  <p className="pt-2">
-                    <b>My Contribution</b>
-                  </p>
+                 
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS and JavaScript.
                   </p>
@@ -266,15 +259,55 @@ function Projects() {
                     urbz is an experimental action and research collective
                     specialized in participatory planning and design.
                   </p>
-                  <p className="pt-2">
-                    <b>My Contribution</b>
-                  </p>
+                 
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, SCSS, and JavaScript.
                   </p>
 
                   <a
                     href="https://urbz.net/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-7 text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    Visit Website
+                    <svg
+                      aria-hidden="true"
+                      className="w-4 h-4 ml-2 -mr-1 "
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
+                <img
+                  className="rounded-t-lg"
+                  src={bodythredz}
+                  alt=""
+                  loading="lazy"
+                />
+                <div className="p-5">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                    BodyThredz
+                  </h5>
+                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    BodyThredz is a sports wear website.In this website created a landing page with all sections of bodythredz.
+                  </p>
+                 
+                  <p className="pt-2">
+                    <b>Front end:</b> Html, CSS and JavaScript.
+                  </p>
+
+                  <a
+                    href="https://bodythredz.com/"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-7 text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -415,6 +448,48 @@ function Projects() {
 
                   <a
                     href="https://ant-design-react-todo-app.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    Visit Website
+                    <svg
+                      aria-hidden="true"
+                      className="w-4 h-4 ml-2 -mr-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div className="mx-auto max-w-sm bg-neutral-100 border border-gray-200 rounded-lg shadow ">
+                <img
+                  className="rounded-t-lg"
+                  src={numgen}
+                  alt=""
+                  loading="lazy"
+                />
+                <div className="p-5">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                    React number generator
+                  </h5>
+
+                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                    This is a React js simple number generator app with even, odd and prime numbers with different colors.
+                  </p>
+                  <p className="pt-2">
+                    <b>Front end:</b> React js.
+                  </p>
+
+                  <a
+                    href="https://react-numbergenerater.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="mt-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
