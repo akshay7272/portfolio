@@ -11,6 +11,7 @@ import portfolio from "../images/portfolio.jpg";
 import netflix from "../images/netflix.jpg";
 import numgen from "../images/numgen.png"
 import bodythredz from "../images/bodythredz.png"
+import blog from "../images/blog.png"
 function Projects() {
   return (
     <>
@@ -331,6 +332,54 @@ function Projects() {
               </div>
             </div>
           </div>
+          <div className=" mx-auto max-w-7xl px-4 lg:px-8">
+            <h1 className="text-4xl text-center pt-7 mt-7 text-white">
+              <i>My Blog Website</i>
+            </h1>
+            <div className="mx-auto mt-1 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 pt-10 lg:mt-10 md:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 md:grid-cols-2">
+              <div className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow ">
+                <img
+                  className="rounded-t-lg"
+                  src={blog}
+                  alt="accountability"
+                  loading="lazy"
+                />
+                <div className="p-5">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+                    BlogsPapers
+                  </h5>
+                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  Explore a variety of engaging content on google trends, relationships, fashion, and beyond, crafted by our community of male and female bloggers. Our platform offers a wealth of diverse insights and expertise, all provided free of charge.
+                  </p>
+                  <p className="pt-2">
+                    <b>Wordpress</b>
+                  </p>
+
+                  <a
+                    href="https://blogspapers.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-2 text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    Visit Website
+                    <svg
+                      aria-hidden="true"
+                      className="w-4 h-4 ml-2 -mr-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              </div>
+              </div>
           <div className=" mx-auto max-w-7xl px-4 lg:px-8">
             <h1 className="text-4xl text-center pt-7 mt-7 text-white">
               <i>Personal React Projects</i>
