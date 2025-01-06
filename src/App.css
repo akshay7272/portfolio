@@ -1,6 +1,17 @@
 ::-webkit-scrollbar {
   width: 0px;
 }
+body {
+ background-size: cover !important;
+}
+.tech img {
+  transition: 0.5s ease-in-out;
+}
+.tech img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  
+}
 @keyframes blink {
   0%,
   100% {
