@@ -24,7 +24,7 @@ function About_us() {
             </div>
 
             <p className="mt-2 pt-3 text-white text-lg text-justify">
-              I'm a self-taught Front End developer from India. I build websites
+              I'm an Experienced Front End developer from India. I build websites
               with a focus on providing the experience for everyone using them
               and responsiveness. Curious to learn more about developing
               scalable distribution systems, love problem solving, and care
