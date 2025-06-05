@@ -9,12 +9,13 @@ import account from "../images/account.jpg";
 import todo from "../images/todo.jpg";
 import portfolio from "../images/portfolio.jpg";
 import netflix from "../images/netflix.jpg";
-import numgen from "../images/numgen.png"
-import bodythredz from "../images/bodythredz.png"
-import blog from "../images/blog.png"
-import colonelz from "../images/colonelz.png"
-import food from "../images/food.png"
-import traya from "../images/traya.png"
+import numgen from "../images/numgen.png";
+import bodythredz from "../images/bodythredz.png";
+import blog from "../images/blog.png";
+import colonelz from "../images/colonelz.png";
+import food from "../images/food.png";
+import traya from "../images/traya.png";
+import { Certifications } from "../assets/asset";
 function Projects() {
   return (
     <>
@@ -42,7 +43,7 @@ function Projects() {
                     Arabic. This Project based on lamb, beef and goat recipes
                     where you can easily find different recipes.
                   </p>
-                 
+
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, SCSS, JavaScript.
                   </p>
@@ -88,7 +89,7 @@ function Projects() {
                     therapies, & provides personalized cancer therapy
                     recommendations.
                   </p>
-               
+
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, SCSS, JavaScript & JQuery.
                   </p>
@@ -133,7 +134,7 @@ function Projects() {
                     understand ‘the governance scale’ in Indian cities in tandem
                     with ‘sector-specific socio-economic scales.
                   </p>
-                 
+
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, SCSS, & JavaScript.
                   </p>
@@ -220,7 +221,7 @@ function Projects() {
                     strengthening transparency and accountability in governance.
                     This research also works with CPR india.
                   </p>
-                 
+
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS and JavaScript.
                   </p>
@@ -263,7 +264,7 @@ function Projects() {
                     urbz is an experimental action and research collective
                     specialized in participatory planning and design.
                   </p>
-                 
+
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS, SCSS, and JavaScript.
                   </p>
@@ -303,9 +304,10 @@ function Projects() {
                     BodyThredz
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    BodyThredz is a sports wear website.In this website created a landing page with all sections of bodythredz.
+                    BodyThredz is a sports wear website.In this website created
+                    a landing page with all sections of bodythredz.
                   </p>
-                 
+
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS and JavaScript.
                   </p>
@@ -345,9 +347,11 @@ function Projects() {
                     TIYA DATA
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  Generate high-quality customer leads, reach new audiences, grow your customer base, and convert leads into sales using our Amazon customer database with 1.5 million data points.
+                    Generate high-quality customer leads, reach new audiences,
+                    grow your customer base, and convert leads into sales using
+                    our Amazon customer database with 1.5 million data points.
                   </p>
-                 
+
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS and JavaScript (Wordpress).
                   </p>
@@ -387,9 +391,10 @@ function Projects() {
                     ColonelzSharpShooterz
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  ColonelzSharpShooterz is a fully functional e-commerce website specializing in the sale of Olympic air guns.
+                    ColonelzSharpShooterz is a fully functional e-commerce
+                    website specializing in the sale of Olympic air guns.
                   </p>
-                 
+
                   <p className="pt-2">
                     <b>Front end:</b> Html, CSS and JavaScript.
                     <b>Backend end:</b> MySql.
@@ -437,7 +442,10 @@ function Projects() {
                     BlogsPapers
                   </h5>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  Explore a variety of engaging content on google trends, relationships, fashion, and beyond, crafted by our community of male and female bloggers. Our platform offers a wealth of diverse insights and expertise, all provided free of charge.
+                    Explore a variety of engaging content on google trends,
+                    relationships, fashion, and beyond, crafted by our community
+                    of male and female bloggers. Our platform offers a wealth of
+                    diverse insights and expertise, all provided free of charge.
                   </p>
                   <p className="pt-2">
                     <b>Wordpress</b>
@@ -466,8 +474,69 @@ function Projects() {
                   </a>
                 </div>
               </div>
-              </div>
-              </div>
+            </div>
+          </div>
+
+          {/* Udemy Certificates Mapping Over Here */}
+
+          <div className="mx-auto max-w-7xl px-4 lg:px-8">
+            <h1 className="text-4xl text-center pt-7 mt-7 text-white">
+              <i>Udemy Certifications</i>
+            </h1>
+
+            <div className="mx-auto mt-1 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 pt-10 lg:mt-10 md:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 md:grid-cols-2">
+              {Certifications.map((certif, index) => (
+                <div
+                  key={index}
+                  className="mx-auto max-w-sm bg-neutral-50 border border-gray-200 rounded-lg shadow"
+                >
+                  <img
+                    className="rounded-t-lg"
+                    src={certif.courseImage || portfolio} // fallback to `portfolio` if certif.image doesn't exist
+                    alt={certif.courseName || "Certification"}
+                    loading="lazy"
+                  />
+                  <div className="p-5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                      {certif.courseName || "Portfolio Website"}
+                    </h5>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                      {certif.courseDesc ||
+                        "This is my personal portfolio website where you can see all details about me and my projects. Built using React and Tailwind CSS."}
+                    </p>
+                    <p className="flex flex-wrap justify-between">
+                      <a
+                        href={
+                          certif.courselink ||
+                          "https://akshay-port-folio.vercel.app/"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-2 text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Course Link
+                      </a>
+                      <a
+                        href={
+                          certif.courseCertificateLink ||
+                          "https://akshay-port-folio.vercel.app/"
+                        }
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center px-3 py-2 text-sm font-medium text-center mt-2 text-white bg-zinc-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Certification Link
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+
+          {/* Udemy Certifications ends over Here */}
+
           <div className=" mx-auto max-w-7xl px-4 lg:px-8">
             <h1 className="text-4xl text-center pt-7 mt-7 text-white">
               <i>Personal React Projects</i>
@@ -571,11 +640,13 @@ function Projects() {
                 />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                    Food Delivery 
+                    Food Delivery
                   </h5>
 
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    This is a React js E-commerce website in React JS. This project is just like other e-commerce website functionalites.
+                    This is a React js E-commerce website in React JS. This
+                    project is just like other e-commerce website
+                    functionalites.
                   </p>
                   <p className="pt-2">
                     <b>Front end:</b> React js.
@@ -661,7 +732,8 @@ function Projects() {
                   </h5>
 
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    This is a React js simple number generator app with even, odd and prime numbers with different colors.
+                    This is a React js simple number generator app with even,
+                    odd and prime numbers with different colors.
                   </p>
                   <p className="pt-2">
                     <b>Front end:</b> React js.
@@ -690,7 +762,6 @@ function Projects() {
                   </a>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
