@@ -1,5 +1,6 @@
 import agile from './agile.png'
 import sql from './sql.png'
+import testRigor from './testrigor.png'
 import webdriverio from './webdriverio.png'
 
 export const Certifications = [
@@ -26,5 +27,13 @@ export const Certifications = [
         courselink: 'https://www.udemy.com/course/the-complete-sql-bootcamp/?couponCode=ST21MT30625G1',
         courseDesc: 'Become an expert at SQL: Use SQL to query a database,Use SQL to perform data analysis etc.',
         courseCertificateLink: "https://drive.google.com/file/d/1KtJWkqw7Q4xdSt8ESgnirsjCrbyzjZjz/view?usp=sharing",
+    },
+    {
+        id:"4",
+        courseName: "(testRigor)AI-driven Test Automation Engineer",
+        courseImage: testRigor,
+        courselink: 'https://testrigor.com/certificates/ozCWdtPFmFx5rZ1DQ88fcoAx',
+        courseDesc: 'AI-driven Test Automation Engineer (testRigor)',
+        courseCertificateLink: "https://testrigor.com/certificates/ozCWdtPFmFx5rZ1DQ88fcoAx",
     }
 ]
